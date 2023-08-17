@@ -37,8 +37,7 @@ interface Props {
 }
 
 
-const AccountProfile = ({ user, btnTitle }: 
-    Props) => {
+const AccountProfile = () => {
     return (
         <div>
             Account Profile
