@@ -2,8 +2,8 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    "./pages/**/*.{js,ts,tsx}",
-    "./components/**/*.{js,jsx,ts,tsx}",
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
@@ -14,7 +14,7 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
-    }, 
+    },
     fontSize: {
       "heading1-bold": [
         "36px",

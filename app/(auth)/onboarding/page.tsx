@@ -12,9 +12,9 @@ async function Page() {
  // if (userInfo?.onboarded) redirect("/");
 
   const userData = {
-   // id: user.id,
-   // objectId: userInfo?._id,
-   // username: userInfo ? userInfo?.username : user.username,
+     id: user.id,
+     //objectId: userInfo?._id,
+    //  username: userInfo ? userInfo?.username : user.username,
   //  name: userInfo ? userInfo?.name : user.firstName ?? "",
    // bio: userInfo ? userInfo?.bio : "",
    // image: userInfo ? userInfo?.image : user.imageUrl,
@@ -28,7 +28,7 @@ async function Page() {
       </p>
 
       <section className='mt-9 bg-dark-2 p-10'>
-        <AccountProfile  />
+        <AccountProfile user ={userData} btnTitle="continue"/>
       </section>
     </main>
   );
